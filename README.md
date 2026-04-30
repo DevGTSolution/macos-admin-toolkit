@@ -1,2 +1,2 @@
 # macos-admin-toolkit
-macOS Scripts, tools, and Jamf EAs I have created
+macOS scripts, Jamf Extension Attributes, and Apple endpoint automation tools for real-world device management workflows.
