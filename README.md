@@ -7,7 +7,9 @@ This repository is focused on practical Apple endpoint engineering patterns, inc
 ## Contents
 
 ### Scripts
-
+- `jamf-limitations-to-smartgroups`
+  `Python` + `jamf-cli` migration tool that converts Jamf policy scope limitations (directory user groups) into "Username directory service group" smart groups. Dry-run by default, with backups.
+  
 - `app-download-and-install.sh`  
   General macOS installer workflow for `.zip`, `.pkg`, and `.dmg` payloads.
 
@@ -50,6 +52,9 @@ This repository is focused on practical Apple endpoint engineering patterns, inc
   Reports users with local admin rights.
 
 ## Featured Workflows
+- `Limitations to Smart Groups`
+
+jamf-limitations-to-smartgroups/ migrated 50+ Jamf policies from directory-group limitations to smart groups in about 5 minutes. It uses jamf-cli's LDAP lookup to build the base64 criterion Jamf expects, and runs dry-run first with per-policy backups. Built with Claude. Write-up: [blog link]
 
 ### Monthly App Maintenance
 
